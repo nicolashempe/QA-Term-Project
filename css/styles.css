@@ -422,9 +422,10 @@ body {
     /********************************** About**********************************/
 
 .abt {
-    height: 260px;
+    height: 200px;
     background-color: #FFAF5F;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .left {
@@ -580,7 +581,7 @@ body {
 
 .com {
     position: relative;
-    margin-top: 620px;
+    margin-top: 660px;
     height: 350px;
     background-color: #FFAF5F;
 }
