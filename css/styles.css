@@ -244,22 +244,48 @@ body {
 /********************************** Footer **********************************/
 
 .footer {
-    font-family: 'Lato', sans-serif;
-	text-align: center;
+    font-family: 'Montserrat', sans-serif;
 	width: 100%;
 	padding: 10px;
-    background-color: #ccc;
-    font-size: 1.1em;
+    background-color: #6E4800;
 }
 
 .footer a{
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 10px;
 }
 
 .footer a:hover{
+    color: #FFAF5F;
+}
+
+.sub {
+    text-align: center;
+}
+
+.sub h1 {
+    font-size: 2em;
     color: white;
+}
+
+.sets {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.footnav {
+    list-style-type: none;
+}
+
+.subset {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.cont {
+    color: white;
+    margin-top: -20px;
 }
 
 /**************************************************** Tablet ****************************************************/
@@ -318,6 +344,11 @@ body {
 
     /* Navigation */
 
+    .masthead {
+        width: 100%;
+        height: 100px!important;
+    }
+
     .nav-ul {
 		display: none;
 	}
@@ -327,19 +358,33 @@ body {
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        padding: 0;
-        margin-top: 75px;
+        background-color: #FFAF5F;
     }
 
     .nav-ul.open li {
         text-align: center;
-		padding-bottom: 20px;
 		border-bottom: 1px solid #cdcdcd;
 	}
 
     .logo {
         position: absolute;
         top: 10px;
+    }
+
+    .banner-title {
+        position: absolute;
+        font-size: 1em;
+        top: 20px;
+        left: 15px;
+    }
+
+    .banner-link {
+        position: absolute;
+        text-decoration: none;
+        top: 65px;
+        left: 15px;
+        color: #FFAF5F;
+        font-size: .5em;
     }
     
 
@@ -349,16 +394,13 @@ body {
         display: inline-block;
 		position: absolute;
 		top: 20px;
-		right: 10px;
-		width: 32px;
-		height: 32px;
+		right: 30px;
     }
 
     /********************************** Footer **********************************/
 
     .footer {
-        width: 95%;
-        margin: 0 auto;
+        width: 100%;
     }
 
 
