@@ -4,37 +4,16 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
 
 /******************************************/
 
 .masthead {
-    height: 320px;
+    height: 160px;
     background-color: #FFAF5F;
 }
-
-
-
-
-/********************************************/
-
-.document-content {
-    width: 50%;
-    margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
-}
-
-.document-content p {
-    font-size: 1em;
-    line-height: 1.5em;
-}
-
-.document-title {
-    text-align: center; 
-}
-
-
 
 /* Global Styles */
 
@@ -46,68 +25,6 @@ body {
     padding: 0;
 }
 
-.txtbox {
-	font-size: 1em;
-	margin-bottom: 10px;
-	width: 333px;
-}
-
-.create {
-	text-align: center;
-	margin-top: 15px;
-}
-
-.holder #logo {
-	margin-left: 88px;
-}
-
-.container a {
-	text-decoration: none;
-	color: #009bc2;
-}
-
-.loginbtn {
-    margin-top: 15px;
-	background-color: black;
-	color: white;
-	border: none;
-	padding: 5px;
-	width: 333px;
-	height: 30px;
-	font-size: 1em;
-}
-
-.loginbtn:hover {
-    background-color: white;
-	color: black;
-	cursor: pointer;
-	border: 2px solid black;
-}
-
-.container {
-	width: 333px;
-	margin: 0 auto;
-	margin-top: 50px;
-}
-
-.logoutbtn {
-	background-color:black;
-	color: white;
-	font-weight: bold;
-	padding: 10px;
-	margin-left: calc(50vw - 50px - 7%);
-	width: 100px;
-	border-radius: 0;
-	border: none;
-}
-
-.logoutbtn:hover {
-	cursor: pointer;
-	background-color: #4a4a4a;
-}
-
-
-
 /********************************** Navigation **********************************/
 
 .nav-ul {
@@ -117,8 +34,8 @@ body {
 }
 
 .nav-ul li {
-    font-family: 'Lato', sans-serif;
-    margin-top: 127px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 64px;
     font-size: 1.2em;
     list-style-type: none;
 }
@@ -149,106 +66,36 @@ body {
     display: none;
 }
 
-.breadcrumbs {
-    text-align: left;
-}
 
-.breadcrumbs a {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    text-decoration: none;
-    color: black;
-}
-
-.breadcrumbs a:hover {
-    cursor: pointer;
-}
-
-.breadcrumbs a:visited {
-    color: black;
-}
-
-
-/********************************** Main **********************************/
-
-.main-content {
-    min-height: 100vh;
-    width: 90%;
-    margin: 0 auto;
-}
-
-.hidden {
-    display: none;
-}
+/********************************** Banner **********************************/
 
 .banner {
+    width: 100%;
     position: relative;
-    margin-top: 100px;
-    width: 100%;
 }
 
-.main-title {
-    position: absolute;
-    font-size: 4em;
-    top: 25px;
-    left: -20px;
-    width: 100%;
-    text-align: center;
-    /* word-spacing: 330px; */
-    color: #009bc2;
-    text-shadow: 2px 2px 3px  #ccc;
-    font-family: 'Lato', sans-serif;
-}
-
-.banner.web {
-    background: url();
-}
-
-.banner.ui {
-    background: url();
-}
-
-.banner.about {
-    background: url();
-}
-
-.banner.v {
-    background: url();
-}
-
-
-
-.banner.gd {
-    background: url();
+@font-face {
+    font-family: lemon;
+    src: url(../media/LemonMilk.otf);
 }
 
 .banner-title {
-    bottom: 5px;
-    left: 5px;
-    font-size: 4em;
-    width: 100%;
-    color: #009bc2;
-    font-family: 'Lato', sans-serif;
-
+    position: absolute;
+    top: 125px;
+    left: 95px;
+    font-family: lemon;
+    color: white;
+    font-size: 5em;
 }
 
-.about-glimpse {
-    margin-top: 100px;
-    width: 100%;
-}
-
-.about-glimpse h1, h2 {
-    font-family: 'Lato', sans-serif;
-    text-align: left;
-}
-
-.about-content {
-    width: 50%;
-    margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.3em;
-    line-height: 1.8em;
-    color: #666;
+.banner-link {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    text-decoration: none;
+    top: 300px;
+    left: 95px;
+    color: #FFAF5F;
+    font-size: 1.6em;
 }
 
 /********************************** Footer **********************************/
@@ -270,321 +117,6 @@ body {
 
 .footer a:hover{
     color: white;
-}
-
-/********************************** Works **********************************/
-
-.works {
-    margin-top: 100px;
-}
-
-.works h1 {
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-}
-
-.works-tile {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-}
-
-.work-single {
-    width: 30%;
-    margin: 20px;
-    color:#4b4b4b; 
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-}
-
-
-.works-img {
-    height: 200px;
-    background-color: black;
-    transition: transform .3s;
-}
-
-.works-img:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
-.works-img.cr {
-    background: url(../images/landing-page.jpg)
-}
-
-.works-img.m {
-    background: url(../images/mountainridgedark.png);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-
-.works-img.pink {
-    background: url(../images/pinkpanther.jpg);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-
-.works-img.comp {
-    background: url(../images/comp.jpg);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-
-.works-img.s {
-    background: url(../images/singularity.jpg);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-
-.works-img.i {
-    background: url(../images/logo-medium.png);
-    background-position: center; 
-    background-repeat: no-repeat; 
-}
-
-.works-img.brand {
-    background: url(../images/vista.png);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-
-.works-content {
-    
-}
-
-.works-img.music {
-    background: url(../images/music.jpg);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-
-.works-img.log {
-    background: url(../images/lock.png);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-
-.works-img.anim {
-    background: url(../img/sheriff.png);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-
-}
-
-.works-img.app {
-    background: url(../img/splash-port.jpg);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-
-}
-
-/**************************************************** Convenience reviews ****************************************************/
-
-.break {
-    width: 100%;
-    height: 20px;
-    background-color:#009bc2;
-}
-
-.project-title {
-    margin-top: 50px;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-}
-
-.project-overview {
-    margin-top: 50px;
-    font-family: 'Open Sans', sans-serif;
-
-}
-
-.project-process {
-    margin-top: 50px;
-    font-family: 'Open Sans', sans-serif;
-
-}
-
-.project-process h4 {
-    color: #009bc2;
-    font-size: 1.2em; 
-}
-
-.project-completion {
-    margin-top: 50px;
-    font-family: 'Open Sans', sans-serif;
-
-}
-
-.overview {
-    display: flex;
-}
-
-.overview-image img {
-    margin-top: 100px;
-    margin-left: 50px;
-    width: 50%;
-    height: auto;
-}
-
-.contnt {
-    font-family: 'Open Sans', sans-serif;
-    width: 70%;
-    font-size: 1em;
-    line-height: 2em;
-}
-
-.site-img {
-    width: 100%;
-    height: auto;
-}
-
-
-
-/**************************************************** Pink Panther ****************************************************/
-
-
-.overview-image.p img {
-    margin-top: 50px;
-    margin-left: 50px;
-    width: 100%;
-    height: auto;
-}
-
-/**************************************************** Mountain Ridge ****************************************************/
-
-
-.overview-image.m img {
-    margin-top: 50px;
-    margin-left: 50px;
-    width: 50%;
-    height: auto;
-}
-
-.logos {
-    display: flex;
-}
-
-.logos img {
-    margin: 20px;
-}
-
-.setup {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.setup div {
-    margin: 20px;
-}
-
-.video-frame {
-    margin: 50 auto;
-}
-
-/**************************************************** Singularity ****************************************************/
-
-.overview-image.s img {
-    margin-top: 50px;
-    margin-left: 50px;
-    width: 50%;
-    height: auto;
-}
-
-/**************************************************** Vista Realty ****************************************************/
-
-.overview-image.v img {
-    margin-top: 100px;
-    margin-left: 50px;
-    width: 50%;
-    height: auto;
-}
-
-/**************************************************** Case Study ****************************************************/
-
-.btn {
-    background-color: black;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    padding: 10px;
-    font-size: 1em;
-    font-family: 'Lato', sans-serif;
-    color: white;
-    border: 2px solid white;
-}
-
-.btn:hover {
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-}
-
-
-/**************************************************** About ****************************************************/
-
-
-.profile {
-    display: flex;
-}
-
-.profile-description {
-    width: 70%;
-}
-
-.profile-image {
-    margin-top: 75px;
-}
-
-.description {
-    text-align: left;
-    font-family: 'Open Sans', sans-serif;
-    width: 50%;
-    font-size: 1.3em;
-    line-height: 1.8em;
-    color: #666;
-}
-
-.works-img.wd {
-    background: url(../images/landing-page.jpg);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-
-}
-
-.works-img.gd {
-    background: url(../images/pinkpanther.jpg);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-    
-}
-
-.works-img.uiux {
-    background: url(../images/pnwx.jpg);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    
-}
-
-.works-img.video {
-    background: url(../images/mountainridgedark.jpg);
-}
-
-.works-img.cs {
-    background: url(../images/pnwx.jpg);
-    background-position: center; 
-    background-repeat: no-repeat; 
 }
 
 /**************************************************** Tablet ****************************************************/
@@ -633,34 +165,13 @@ body {
             height: 32px;
         }
 
-        .banner {
-            height: 100px;
-            background-color: #ccc;
-        }
+       
 }
 
 /**************************************************** Mobile ****************************************************/
 
 @media only screen and (max-width: 414px) {
 
-    .profile {
-        flex-direction: column;
-    }
-    .profile-description {
-        width: 100%;
-    }
-
-
-    /* Terms of Use and Privacy Policy */
-
-    .document-content {
-        width: 95%;
-        margin: 0 auto;
-    }
-
-    .document-title {
-        margin-top: 100px;
-    }
 
     /* Navigation */
 
@@ -687,16 +198,6 @@ body {
         position: absolute;
         top: 10px;
     }
-
-    #logotitle {
-        display: none;
-    }
-
-    .breadcrumbs {
-        text-align: left;
-        margin-top: 100px;
-        line-height: 1.5em;
-    }
     
 
     /********************************** Menus **********************************/
@@ -708,88 +209,6 @@ body {
 		right: 10px;
 		width: 32px;
 		height: 32px;
-    }
-
-
-    /********************************** Main **********************************/
-
-    .main-content {
-        width: 95%;
-        margin: 100px auto;
-    }
-
-    .banner {
-        margin-top: 80px;
-        height: 50px;
-        width: 100%;
-        background-color: white;
-    }
-
-    .banner-title {
-        position: absolute;
-        top: 10px;
-        font-size: 2em;
-        padding-top: 10px;
-    
-    }
-
-    .description {
-        margin: 75px auto;
-        width: 100%;
-    }
-
-    .description h2 {
-        text-align:left;
-        color: black;
-    }
-
-    .main-title {
-        position: absolute;
-        font-size: 2em;
-        top: -5px;
-        left: -5px;
-        width: 100%;
-        text-align: center;
-        /* word-spacing: 75px; */
-        color: #009bc2;
-        text-shadow: 2px 2px 3px  #ccc;
-        font-family: 'Lato', sans-serif;
-        white-space: nowrap;
-    }
-
-    .works-tile {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .work-single {
-        width: 80%;
-    }
-
-    .site-img {
-        width: 100%;
-        height: auto;
-    }
-
-    .about-glimpse {
-        width: 95%;
-        margin-top: 25px;
-    }
-
-    .about-glimpse h2 {
-        margin-top: 20px;
-        font-size: 1.5em;
-        color: black;
-    }
-
-    .about-content {
-        width: 95%;
-        margin: 0 auto;
-        font-size: 1.3em;
-    }
-
-    .contnt {
-        width: 100%;
     }
 
     /********************************** Footer **********************************/
