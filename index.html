@@ -21,10 +21,10 @@
         
         <nav class="navigation">
             <ul class="nav-ul">
-                <li> <a href="#about"> About </a> </li>
-                <li> <a href="#menu"> Menu </a> </li>
-                <li> <a href="#community"> Community </a> </li>
-                <li> <a href="#contact"> Contact </a> </li>
+                <li class="hide"> <a href="#about"> About </a> </li>
+                <li class="hide"> <a href="#menu"> Menu </a> </li>
+                <li class="hide"> <a href="#community"> Community </a> </li>
+                <li class="hide"> <a href="#contact"> Contact </a> </li>
             </ul>
         </nav>
     </header>
@@ -63,7 +63,7 @@
             <h3>Drinks</h3>
             <h4>Coffee<span id="plus" style="float: right;"> + </span></h4><br>
 
-            <ul class="cof">
+            <ul class="cof c">
                 <li>Black <span style="float: right;">3.50</span></li><br>
                 <li>Americano <span style="float: right;">4</span></li><br>
                 <li>Latte <span style="float: right;">4</span></li><br>
@@ -74,7 +74,7 @@
             </ul>
             <br style="clear: both;">
 
-            <h4>Tea</h4><br>
+            <h4>Tea<span id="plus2" style="float: right;"> + </span></h4><br>
 
             <ul class="cof tea">
                 <li>Chai <span style="float: right;">3</span></li><br>
@@ -84,13 +84,14 @@
                 <li>Matcha Green Tea <span style="float: right;">4.50</span></li><br>
                 <li>Mint <span style="float: right;">3</span></li><br>
             </ul>
-            <br style="clear: both;">
+            <span style="clear: both;"></span>
 
         </div>
         <div class="column2">
             <img class="disp" src="img/mug.jpg" width="100%" alt="Life Begins after Coffee"><br>
 
-            <h3>Bakery</h3><br>
+            <h3 class="bake-title">Bakery</h3><br>
+            <img class="spec" src="img/croi.jpg" width="100%" alt="Bakery Banner">
             <div class="pics">
                 <div>
                     <img src="img/bagel.jpg" width="175px" style="border-radius: 50%;" alt="Bread">
@@ -107,8 +108,14 @@
                 <div>
                     <img src="img/croissant.jpg" width="175px" style="border-radius: 50%;" alt="Pastries">
                     <h4>Pastries</h4>
-                </div><br>
+                </div><br> 
             </div>
+            <ul class="cof bake">
+                    <li>Bread </li><br>
+                    <li>Cake </li><br>
+                    <li>Desserts </li><br>
+                    <li>Pastries </li><br>
+            </ul>
         </div>
     </div>
 
@@ -121,6 +128,19 @@
         </div>
 
 
+    </div>
+
+    <div id="new" class="news">
+        <div class="sub2">
+            <h3>Subscribe to our newsletter</h3>
+        </div>
+        <div class="form2">
+            <input style="margin-left: 6.5px; font-family: 'Montserrat', sans-serif; padding: 10px; background: transparent; border: black 1px solid; color: black; width: 90%;" type="text" value="Name"><br><br>
+            <input style="margin-left: 6.5px; font-family: 'Montserrat', sans-serif; padding: 10px; background: transparent; border: black 1px solid; color: black; width: 90%;" type="email" value="Email Address"><br><br>
+            <input style="margin-left: 6.5px; font-size: 1.6em; font-family: 'Montserrat', sans-serif; text-align: center; border: none; height: 40px; width: 95.5%; color: #6E4800; background-color: #FFAF5F;" type="submit" value="Subscribe"><br><br>
+        </div>
+            
+        </div>
     </div>
 
     <div id="contact" class="footer">
@@ -137,11 +157,11 @@
                 </ul>
             </div>
             <div class="subset">
-                <a href="#"><img src="img/insta.png" alt="Instagram"></a>
-                <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
                 <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="img/insta.png" alt="Instagram"></a>
             </div>
-            <div>
+            <div class="form">
                 <input style="padding: 5px; background: transparent; border: white 1px solid; color: white;" type="text" value="Name"><br>
                 <input style="padding: 5px; background: transparent; border: white 1px solid; color: white;" type="email" value="Email Address">
                 <input style="margin-left: 50px; height: 40px; width: 60px; color: #6E4800; background-color: white;" type="submit" value="Ok"><br>
@@ -153,10 +173,13 @@
                 <br>
                 <p> &copy; The Coffee Cup 2020</p>      
             </div>
+            <p class="cdown"> &copy; The Coffee Cup 2020</p> 
         </div>
         
 
     </div>
+
+  
 
     <script type="text/javascript" src="js/main.js"></script>
 

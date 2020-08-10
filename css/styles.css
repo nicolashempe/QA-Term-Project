@@ -8,6 +8,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
 
 
+.spec {
+    display: none;
+}
+
+.bake {
+    display: none;
+}
+
+.news {
+    display: none;
+}
+
+#plus, #plus2 {
+    display: none;
+}
+
+.cdown {
+    display: none;
+}
 
 /******************************************/
 
@@ -150,6 +169,7 @@ body {
 
 .mnu {
     clear: both;
+    margin-left: -10px;
 }
 
 .column {
@@ -180,7 +200,11 @@ body {
 .column2 {
     float: right;
     padding-top: 32px;
-    width: 75%;
+    width: 70%;
+}
+
+.bake-title {
+    padding-top: 100px;
 }
 
 .column2 h3 {
@@ -359,11 +383,13 @@ body {
         justify-content: center;
         width: 100%;
         background-color: #FFAF5F;
+        position: absolute;
+        top: 150px;
     }
 
     .nav-ul.open li {
         text-align: center;
-		border-bottom: 1px solid #cdcdcd;
+		border-bottom: 1px solid #6E4800;
 	}
 
     .logo {
@@ -410,8 +436,7 @@ body {
     color: white;
     line-height: 1em;
     margin-top: -40px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: -8px;
     
 }
 
@@ -431,19 +456,31 @@ body {
 
 /********************************** Menu **********************************/
 
+#plus {
+    display: block;
+}
+
+#plus2 {
+    display: block;
+}
+
 .mnu {
     width: 90%;
     margin: 0 auto;
 }
 
-.cof {
+.c {
+    display: none;
+}
+
+.tea {
     display: none;
 }
 
 .column {
     width: 100%;
     padding: 0;
-    margin: 0;
+    margin-left: -8px;
 }
 
 .column h2 {
@@ -458,6 +495,7 @@ body {
     color: #FFAE15;
     font-size: 1.1em;
     margin-top: -20px;
+    margin-bottom: 40px;
 }
 
 .column h4 {
@@ -471,15 +509,20 @@ body {
 }
 
 .column2 {
-    padding-top: 32px;
     width: 100%;
+    margin-left: -8px;
+    padding: 0;
+    margin-top: -60px;
 }
 
 .column2 h3 {
     font-family: lemon;
     color: #FFAE15;
-    font-size: 1em;
-    margin-left: 200px;
+    font-size: 1.1em;
+    margin-left: -8px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: -40px;
 }
 
 .column2 h4 {
@@ -493,7 +536,13 @@ body {
     display: none;
 }
 
-.cof.open {
+.c.open {
+    display: block;
+    list-style-type: none;
+    margin-top: -20px;
+}
+
+.tea.open {
     display: block;
     list-style-type: none;
     margin-top: -20px;
@@ -509,9 +558,47 @@ body {
 }
 
 .pics {
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 70px;
+    display: none;
+}
+
+.spec {
+    display: block;
+    margin-left: -8px;
+}
+
+.bake {
+    display: block;
+}
+
+/********************************** Community **********************************/
+
+.com {
+    position: relative;
+    margin-top: 620px;
+    height: 350px;
+    background-color: #FFAF5F;
+}
+
+.titlec h1 {
+    position: absolute;
+    font-family: lemon;
+    color: #6E4800;
+    font-size: 1.5em;
+    top: 10px;
+    left: 28vw;
+}
+
+.media {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    
+}
+
+.media iframe {
+    width: 375px;
+    height: 200px;
 }
     
 
@@ -527,7 +614,75 @@ body {
     /********************************** Footer **********************************/
 
     .footer {
+        position: relative;
         width: 100%;
+        height: 150px;
+    }
+
+    .footer .sub {
+        display: none;
+        
+    }
+
+    .subset {
+        display: flex;
+        justify-content: space-evenly; 
+        position: absolute;
+        top: 10px;
+        left: 30vw;
+    }
+
+    .subset img {
+        width: 60%;
+    }
+
+    .sub2 {
+        font-family: lemon;
+        font-size: 1.1em;
+        text-align: center;
+
+    }
+
+    .sub2 h3 {
+        margin-left: -8px;
+    }
+
+    .footnav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 60px;
+        font-size: .7em;
+        margin-left: -50px;
+    }
+
+    .news {
+        display: block;
+        position: relative;
+        height: 220px;
+        width: 100%;
+    }
+
+    .cont {
+        display: none;
+    }
+
+    .form2 {
+        width: 100%;
+    }
+
+    .form {
+        display: none;
+    }
+
+    .cdown {
+        position: absolute;
+        display: block;
+        color: white;
+        font-size: .7em;
+        text-align: center;
+        margin-top: 70px;
+        padding: 30px;
     }
 
 
