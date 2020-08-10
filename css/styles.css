@@ -386,6 +386,133 @@ body {
         color: #FFAF5F;
         font-size: .5em;
     }
+
+    /********************************** About**********************************/
+
+.abt {
+    height: 260px;
+    background-color: #FFAF5F;
+    width: 100%;
+}
+
+.left {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin-top: -10px;
+}
+
+.right {
+    padding: 20px;
+    width: 90%;
+    font-size: .7em;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    line-height: 1em;
+    margin-top: -40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.left h2 {
+    color: #6E4800;
+    font-family: lemon;
+    font-size: 1.5em;
+}
+
+.left h3 {
+    font-family: lemon;
+    color: #A26400;
+    font-size: 1em;
+    margin-top: -25px;
+}
+
+/********************************** Menu **********************************/
+
+.mnu {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cof {
+    display: none;
+}
+
+.column {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.column h2 {
+    color: #6E4800;
+    font-family: lemon;
+    font-size: 1.5em;
+    margin-top: -10px;
+}
+
+.column h3 {
+    font-family: lemon;
+    color: #FFAE15;
+    font-size: 1.1em;
+    margin-top: -20px;
+}
+
+.column h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 1.1em;
+    padding: 5px;
+    background-color: #D8D8D8;
+    margin-top: -20px;
+}
+
+.column2 {
+    padding-top: 32px;
+    width: 100%;
+}
+
+.column2 h3 {
+    font-family: lemon;
+    color: #FFAE15;
+    font-size: 1em;
+    margin-left: 200px;
+}
+
+.column2 h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #606060;
+    font-size: .7em;
+    text-align: center;
+}
+
+.disp {
+    display: none;
+}
+
+.cof.open {
+    display: block;
+    list-style-type: none;
+    margin-top: -20px;
+}
+
+
+.cof li {
+    font-family: 'Montserrat', sans-serif;
+    color: #606060;
+    font-size: 1.5em;
+    padding: 0;
+    margin-left: -40px;
+}
+
+.pics {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 70px;
+}
     
 
     /********************************** Menus **********************************/
