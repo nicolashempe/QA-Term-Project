@@ -73,7 +73,8 @@ body {
 
 .logo {
     position: absolute;
-    margin-left: 50%;
+    top: 20px;
+    left: 45vw;
     
 }
 
@@ -394,7 +395,12 @@ body {
 
     .logo {
         position: absolute;
-        top: 10px;
+        top: 5px;
+        left: 5px;
+    }
+
+    .logo img {
+        width: 70px;
     }
 
     .banner-title {
