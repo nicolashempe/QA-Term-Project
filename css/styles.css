@@ -126,6 +126,7 @@ body {
     height: 400px;
     margin-top: -22px;
     background-color: #FFAF5F;
+    overflow: scroll;
 }
 
 .left {
@@ -313,6 +314,29 @@ body {
     margin-top: -20px;
 }
 
+@media only screen and (max-width: 1492px) {
+
+    .left {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    .right {
+        width: 90%;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .right p {
+        text-align: left;
+    }
+
+
+}
+
 @media only screen and (max-width: 1334px) {
 
     .cof {
@@ -322,6 +346,7 @@ body {
     .disp {
         width: 70%;
     }
+
 }
 
 /**************************************************** length of nav ****************************************************/
@@ -428,10 +453,11 @@ body {
     /********************************** About**********************************/
 
 .abt {
-    min-height: 200px;
+    height: 200px;
     background-color: #FFAF5F;
     width: 100%;
     margin-bottom: 20px;
+
 }
 
 .left {
