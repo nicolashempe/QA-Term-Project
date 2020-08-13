@@ -251,18 +251,20 @@ body {
 }
 
 .titlec h1 {
-    position: absolute;
+    position: relative;
     font-family: lemon;
     color: #6E4800;
     font-size: 3em;
+    float: left;
     top: 250px;
-    left: 250px;
+    padding: 0 200px;
+    
 }
 
 .media {
-    position: absolute;
+    position: relative;
+    float: left;
     top: 100px;
-    right: 400px;
 }
 
 
@@ -347,7 +349,24 @@ body {
         width: 70%;
     }
 
+    .titlec h1 {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        top: 10px;
+        
+    }
+
+    .media {
+        clear: both;
+        top: 60px;
+        left: 25vw;
+    }
+
 }
+
+
+
 
 /**************************************************** length of nav ****************************************************/
 
